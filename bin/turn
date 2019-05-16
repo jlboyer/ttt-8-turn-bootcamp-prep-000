@@ -12,7 +12,3 @@ display_board(board)
 
 turn(board)
 
-
-
-move(board,index)
-
