@@ -20,7 +20,7 @@ end
 
 
 def valid_move?(board, index)
-  if index =~ /[0-8]/ && position_taken?(board, index) == false
+  if index =~ /[1-8]+0/ && position_taken?(board, index) == false
     true
   else
     false
