@@ -1,6 +1,5 @@
 require_relative "../lib/turn.rb"
 require_relative '../lib/display_board.rb'
-require_relative '../lib/valid_move.rb'
 
 describe './lib/turn.rb' do
 
