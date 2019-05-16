@@ -4,8 +4,8 @@ def turn(board)
   if input =~ /[^1-9]/ 
     turn(board)
   else
-    index = input_to_index(input)
     move(board, index)
+    index = input_to_index(input)
   end
 end
 
