@@ -10,7 +10,7 @@ board = Array.new(9," ")
 
 display_board(board)
 
-index = turn(board)
+turn(board)
 
 
 
